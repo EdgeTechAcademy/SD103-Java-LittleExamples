@@ -1,4 +1,4 @@
-public class StringsPartA {
+public class C_StringsPartA {
     public static void main(String[] args) {
         //  The String object in Java is VERY handy for holding text
         //  It can hold up to 2_147_483_647 characters
@@ -36,7 +36,7 @@ public class StringsPartA {
         String getMiddle = hello.substring(12, 20);
         System.out.println("getMiddle = " + getMiddle);
 
-        //  StringsPartA are objects. Which means that they have defined actions we can perform on a string
+        //  C_StringsPartA are objects. Which means that they have defined actions we can perform on a string
         //  like you saw above we can upper and lower case a string of grab a section of the string
         //  to see what else you can do type your string variable name and then type a period.
         //  the period is request to do a string function. The editor will list those functions when we type the period

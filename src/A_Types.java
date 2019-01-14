@@ -1,4 +1,4 @@
-public class Types {
+public class A_Types {
     public static void main(String[] args) {
 
     //  What type of information does your variable hold?

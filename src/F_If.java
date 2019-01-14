@@ -1,7 +1,7 @@
 import java.util.Calendar;
 import java.util.Date;
 
-public class If {
+public class F_If {
     public static void main(String[] args) {
         //  programming like life and love does not always take a straight path
         //  so how do we navigate life's highway?
@@ -38,7 +38,7 @@ public class If {
         //      you will need an else to print if they are NOT < or > or whatever you choose
 
         //  TODO Assignment
-        //      create a set of expressions for what you are doing each day of the week
+		//  	create a set of expressions for what you are doing each day of the week
         int dow = date.get(Calendar.DAY_OF_WEEK);
 
         //  TODO Assignment

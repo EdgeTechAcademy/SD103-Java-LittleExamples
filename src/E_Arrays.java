@@ -1,4 +1,4 @@
-public class Arrays {
+public class E_Arrays {
     public static void main(String[] args) {
         //  sometimes one is not enough
         //  but an integer only holds a single number
@@ -33,7 +33,7 @@ public class Arrays {
         //  when you create (new) an array you ask the Java Virtual Machine for a chunk of memory
         //  The memory is ONLY as big as you ask it for. Which means once created it can not be expanded or shrunk
 //        courses[99] = "SQL";      //  remove the // at the start of this line of code. What error did you get?
-        //  Arrays all begin at position 0.
+        //  E_Arrays all begin at position 0.
         //  Think about what the new is doing. It is giving you the address of a memory location to save your data
         //      When you store something in the first location how far PAST the start of your array do you need to go
         //      to get to that first location? zero. So address 0 is our first location in the array.
@@ -53,7 +53,7 @@ public class Arrays {
         }
 
         //  Back to arrays
-        //  Arrays have a single property: length
+        //  E_Arrays have a single property: length
         System.out.println("courses.length = " + courses.length);
 
         //  sometimes we want the last position in an array

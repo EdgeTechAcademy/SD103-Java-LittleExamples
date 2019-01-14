@@ -1,4 +1,4 @@
-public class Variables {
+public class B_Variables {
     public static void main(String[] args) {
 
     //  What are variables for?
@@ -15,7 +15,7 @@ public class Variables {
     //          Name - this is the tag your code will use to find the data when it is needed
     //              start with a lower case letter make it descriptive.
     //              you can use numbers also but just not as the first letter
-    //              If you use multiple words then capitalize them (just not the first word)
+    //              F_If you use multiple words then capitalize them (just not the first word)
     //          Type - this piece of information your code needs... what kind of info is it
     //              is it a whole number? we can use int or long
     //              is it a number with a decimal? We can use float or double
