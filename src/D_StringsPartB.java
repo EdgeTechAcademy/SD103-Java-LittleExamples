@@ -14,14 +14,15 @@ public class D_StringsPartB {
         //      create a variable that will hold the charAt byte 13 and print it out
         nextString.charAt(13);
 
-        //  TODO    create a variable that will hold the result of this expression and print it out
+        //  TODO    Create a variable that will hold the result of this expression and print it out
         nextString.endsWith("!");
 
-        //  TODO    create a variable that will hold the result of this expression and print it out
+        //  TODO    Create a variable that will hold the result of this expression and print it out
         nextString.startsWith("the");
 
-        //  TODO    create a variable that will hold the result of this expression and print it out
+        //  TODO    Create a variable that will hold the result of this expression and print it out
         //          indexOf looks for a string inside of another string and returns where it was found or -1 if not found
+		//          Use the same variable for the three examples.
         nextString.indexOf('x');
         nextString.indexOf('e');
         nextString.lastIndexOf('e');
