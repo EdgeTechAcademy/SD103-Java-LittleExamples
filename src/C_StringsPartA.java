@@ -54,7 +54,7 @@ public class C_StringsPartA {
 		//			save the result to a new variable and print out a good message
 
 		//		what is the position of the letter 'e') (2 loc)
-		//			save the postion to a new variable and print it out
+		//			save the position to a new variable and print it out
 
 		//      upper case your name and print (change your name variable) (2 loc)
 
