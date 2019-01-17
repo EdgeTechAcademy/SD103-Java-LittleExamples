@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Utils {
 
-	static Scanner sc = new Scanner((System.in));
+	static Scanner sc = new Scanner(System.in);
 
 	/**
 	 * 		getInput	-	Prompt the user to type something in the console window
@@ -67,7 +67,10 @@ public class Utils {
 		int number = 0;							//	will hold the numeric response from the user
 		do {									//	infinite do-while until the user enters a number
 			number = getNumber(prompt);			//	ask user for a response
-		} while (number < 0 || number > max);	//	stay at it until the user enters a proper number
+			if (number >= 0 && number <= max)	//	if number is between 0 and max we have a good number
+				break;							//	now we can exit out loop
+			System.out.println(number + " is not between 0 and " + max);
+		} while (true);	//	stay at it until the user enters a proper number
 		return number;							//	yay, we have our number
 	}
 
@@ -77,7 +80,7 @@ public class Utils {
 			max = getNumber("Enter Maximum number: ");						//	ask user for a maximum number
 			number = getNumber("Enter a number <= to " + max + ": ", max);	//	test code to see if we can only enter numbers < max
 			//	yay, here is the users response
-			System.out.println("User entered: " + number + " which is less than " + max);
+			System.out.println("User entered: " + number + " which is less than or equal to " + max);
 		}	while (number != 0);
 	}
 }
