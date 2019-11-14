@@ -8,6 +8,9 @@ public class G_Switch {
 			switch (firstNum) {
 				case 0: System.out.println("nothing"); 						break;
 				case 1: System.out.println("One is the loneliest number"); 	break;
+				case 2: System.out.println("Number " + firstNum); 			break;
+				case 3: System.out.println("1 + 2 = " + firstNum); 			break;
+				case -1: areWeStillGoing = false;							break;
 			}
 		}
 	}

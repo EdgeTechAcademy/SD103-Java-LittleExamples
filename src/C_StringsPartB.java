@@ -1,4 +1,4 @@
-public class D_StringsPartB {
+public class C_StringsPartB {
     public static void main(String[] args) {
         String nextString = "The quick brown fox jumped over the lazy red dog!";
 

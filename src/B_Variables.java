@@ -40,13 +40,6 @@ public class B_Variables {
             int     width, height, length;
             String  color, style, woodFinish;
 
-
-    //      check out
-    //          https://www.cdc.gov/nchs/data/nhsr/nhsr122-508.pdf for health statistics
-    //          https://www.cdc.gov/nchs/fastats/deaths.htm
-    //          find some other information on the Internet that you could create vaiables for
-
-
     //  TODO Assignment
     //      Create 10 variables that could be used in the above studies
     //          create some int and longs
