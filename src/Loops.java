@@ -2,8 +2,14 @@ public class Loops {
 	public static void main(String[] args) {
 		String[] courses = { "Java", "C Sharp", "JavaScript", "HTML", "SQL", "MongoDB"};
 
+		//	just your basic for loop
 		for (int i = 0; i < courses.length; i++) {
 			System.out.println(courses[i]);
+		}
+
+		//	the enhanced for loop
+		for ( String nextCourse : courses) {
+			System.out.println("Course taught at Edge Tech: " + nextCourse);
 		}
 
 		int stop = 0;

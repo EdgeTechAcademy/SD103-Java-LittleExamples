@@ -49,7 +49,7 @@ public class C_StringsPartA {
 
 		//  TODO Assignment
 		//      Create a string with your name
-
+		String myName = "Gary Thomas James";
 		//      Does your name *contain* the letter 'e' (true/false) (2 loc)
 		//			save the result to a new variable and print out a good message
 
