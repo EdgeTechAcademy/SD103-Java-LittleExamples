@@ -36,6 +36,13 @@ public class Calculator {
 				case "cos"	:	answer = Math.cos(num2);	break;
 				case "sqrt"	:	answer = Math.sqrt(num2);	break;
 				case "rand"	:	answer = Math.floor(Math.random()* num2);break;
+				//  abs     absolute value. Look at Math.????
+				case    "abs"    : answer = Math.abs(num1);        break;
+				case    "PI"     : answer = Math.PI;              break;
+				case    "inv"    : answer = 1 / num1;            break;
+				case    "10"     : answer = Math.pow(10,num1);    break;
+				case    "age"    : answer = num1 * 365.24 * 24 * 60 * 60;    break;
+				default          : answer = 0;           break;
 			}
 			switch (varCount) {
 				case 0	:	System.out.println(operator 			 + " = " + answer);					break;
